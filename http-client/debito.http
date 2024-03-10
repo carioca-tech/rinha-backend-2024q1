@@ -1,0 +1,8 @@
+POST http://localhost:8080/clientes/5/transacoes
+Content-Type: application/json
+
+{
+  "valor": 1000,
+  "tipo": "d",
+  "descricao": "descricao"
+}
